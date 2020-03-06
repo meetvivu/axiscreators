@@ -15,6 +15,12 @@
 	.fa-bars{
 		color:#fff;
 	}
+	.header{
+		background: #000;
+	}
+	.banner-setion{
+		margin-top: 77px;
+	}
 }
 @media (max-width: 768px){
 	.slider-button{
@@ -28,11 +34,9 @@
 	.contact-btn{
 		font-size:18px;
 	}
-	.header{
-		background: #000;
-	}
+	
 	.footer-section{
-		padding: 0 0 30px 0;
+		padding: 40px 0 40px 0;
 	}
 	.about{
 		padding:30px 0 0 0 ;
@@ -52,5 +56,9 @@
 	.text h6 i{
 		margin-right:15px;
 		font-size:30px;
+	}
+	.slider:before{
+		width:100%;
+		opacity:.5;
 	}
 }

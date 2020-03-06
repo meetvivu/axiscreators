@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	padding:0;
 	margin:0;
@@ -32,7 +35,7 @@ ul{
 	right: 0;
 	left: 0;
 	width:100%;
-	z-index: ;
+	z-index: 99;
 }
 .fixed{
 	position: fixed;
@@ -61,7 +64,6 @@ ul{
 	color: #fff;
 	margin: 0 15px;
 	font-size: 16px;
-	font-family: 'Cormorant', serif;
 }
 .navbar-nav{
 	margin-right: 10%;
@@ -161,7 +163,7 @@ ul{
 
 
 .gallery-section{
-	padding: 60px 0;
+	padding: 80px 0 30px 0;
 	position:relative;
 }
 .gallery-section:before{
@@ -238,7 +240,7 @@ ul{
 	padding-bottom:5px;
 }
 .contact-section{
-	padding:70px 0;
+	padding:90px 0 0 0 ;
 }
 .contact-section .text-heading h3{
 	color:#c6b069;
@@ -271,7 +273,7 @@ ul{
 
 
 .testimonials{
-	padding:20px 0;
+	padding:90px 0 30px 0;
 }
 .test-img img{
 	width:150px !important;
@@ -320,7 +322,7 @@ ul{
 	margin:0 auto;
 }
 .footer-section {
-	padding:50px 0;
+	padding:100px 0;
 }
 .main-ul li:nth-child(1) a{
 	font-size:24px;
@@ -341,4 +343,14 @@ ul{
 }
 .main-ul li:nth-child(3) ul li a i:hover{
 	color: #c6b069;
+}
+.marquee h4{
+	font-size:16px;
+}
+.note-down{
+	background:#c6b069;
+	padding:15px 10px;
+}
+marquee{
+	padding:15px 0;
 }
