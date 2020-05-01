@@ -7,12 +7,17 @@ body{
 	box-sizing:border-box;
 	font-family: 'Josefin Sans', sans-serif;
 	background-color: #222222;
+	background-image: url(../images/bg-img.png);
+	width: 100%;
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 ::-webkit-scrollbar {
-  width: 7px;
+	width: 7px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #c6b069; 
+	background: #c6b069; 
 }
 a{
 	text-decoration: none !important ;
@@ -39,13 +44,13 @@ ul{
 }
 .fixed{
 	position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 999999;
-    animation: headers 1s 1;
-    background-color: #000;
-    opacity: 1;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 99;
+	animation: headers 1s 1;
+	background-color: rgba(0,0,0,.8);
+	opacity: 1;
 	
 }
 @keyframes headers{
@@ -83,7 +88,7 @@ ul{
 	transform: rotate(270deg);
 	position: absolute;
 	top: 35%;
-	left: 0%;
+	left: -23%;
 	margin:0;
 }
 .banner-image h2{
@@ -145,13 +150,7 @@ ul{
 .about-text{
 	padding:10px 0px;
 }
-.about-text h3{
-	color:#c6b069;
-	font-size:48px;
-	margin-bottom: 20px;
-	font-weight:600;
-	font-family: 'Dancing Script', cursive;
-}
+
 .about-text h5{
 	font-weight:400;
 	font-size: 16px;
@@ -297,7 +296,7 @@ ul{
 	color:#fff;
 	font-size:30px;
 	padding-bottom:30px;
-		font-family: 'Dancing Script', cursive;
+	font-family: 'Dancing Script', cursive;
 }
 .text h6 i{
 	margin-left:25px;
@@ -338,7 +337,7 @@ ul{
 }
 .main-ul li:nth-child(3) ul li a i{
 	font-size:25px;
-	margin:0 10px;
+	margin: 15px 10px;
 	transition:all 0.5s ease 0s;
 }
 .main-ul li:nth-child(3) ul li a i:hover{
@@ -353,4 +352,75 @@ ul{
 }
 marquee{
 	padding:15px 0;
+}
+
+
+
+/*=====================================================================================================================
+=======================================================================================================================*/
+.about-section{
+	padding: 90px 0;
+}
+.about-image{
+	position: relative;
+}
+.about-image img{
+	position: relative;
+	z-index: 3;
+}
+.about-image:before{
+	position: absolute;
+	content: '';
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	top: 15px;
+	left: 15px;
+	z-index: 2;
+}
+.about-image:after{
+	position: absolute;
+	content:'';
+	width: 80%;
+	height: 100%;
+	border: 10px solid #ad8354;
+	top: 35px;
+	left: 35px;
+	z-index: 1;
+}
+.about-text h3{
+	color:#c6b069;
+	font-size:40px;
+	margin-bottom: 20px;
+	font-weight:600;
+}
+.about-text h6{
+	font-size: 16px;
+	font-weight: normal;
+}
+.gols-section{
+	padding: 30px 0;
+}
+.ultimate-text h3{
+	color:#ad8354;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.ultimate-text h6{
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.gols-text h4{
+	color: #fff;
+	font-size: 24px;
+}
+.arrow-image{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 20px;
 }
