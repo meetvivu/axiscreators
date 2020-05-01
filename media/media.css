@@ -21,6 +21,9 @@
 	.banner-setion{
 		margin-top: 77px;
 	}
+	.about-text h6{
+		font-size: 13px;
+	}
 }
 @media (max-width: 768px){
 	.slider-button{
@@ -41,8 +44,30 @@
 	.about{
 		padding:30px 0 0 0 ;
 	}
+	.about-text{
+		margin-top: 100px;
+	}
+	.about-text h3{
+		font-size: 32px;
+	}
+	.section-1{
+		padding: 20px 0 0;
+	}
+	.gols-text h4{
+		font-size: 20px;
+	}
+	.arrow-image{
+		display: none;
+	}
+	.gols-text h4{
+		text-align: left !important;
+		padding: 15px 0;
+	}
+	.gols-section{
+		padding: 0px 0;
+	}
 }
-@media (max-width:512px){
+@media (max-width:575px){
 	.text h4{
 		font-size:18px;
 	}
@@ -61,4 +86,24 @@
 		width:100%;
 		opacity:.5;
 	}
+	.gols-text h4{
+		font-size: 16px;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
