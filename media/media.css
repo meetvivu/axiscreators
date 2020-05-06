@@ -66,6 +66,17 @@
 	.gols-section{
 		padding: 0px 0;
 	}
+	.day-text{
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	.day-text h3,.day-text h2,.day-text h2{
+		display: inline-block;
+	}
+	.arrow-div{
+		margin: 0;
+		text-align: center;
+	}
 }
 @media (max-width:575px){
 	.text h4{
