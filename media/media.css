@@ -32,7 +32,7 @@
 	.carousel a:nth-child(1),.carousel a:nth-child(2){
 		color: #fff;
 		margin-left: 10px;
-		font-size: 25px;
+		font-size: 25px !important;
 	}
 	.contact-btn{
 		font-size:18px;
