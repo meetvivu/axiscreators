@@ -524,3 +524,84 @@ marquee{
 }
 /*=====================================================================================================================
 =======================================================================================================================*/
+
+
+
+/*=====================================================================================================================
+==================================================  PRICING CSS START   ==============================================*/
+.pricing-section{
+	padding: 50px 0;
+}
+.pricing-table{
+	background-color: rgba(255,255,255,0.9);
+	padding: 25px 15px;
+	border-radius: 10px;
+}
+.pricing-tag h3{
+	color: #c6b069;
+	font-size: 32px;
+	display: block;
+	margin-bottom: 20px;
+	padding: 20px 0 20px;
+	border-bottom:2px solid rgba(186,186,186,0.2);
+}
+.price{
+	border-bottom:2px solid rgba(186,186,186,0.2);
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+}
+.price sup{
+	font-size: 25px;
+	color: #222;
+	padding: 0 5px;
+}
+.price h2{
+	font-size: 50px;
+	display: inline-block;
+	color: #222;
+}
+.price h5{
+	text-transform: uppercase;
+	color: #222;
+	background-color: #c6b069;
+	width: 90px;
+	color: #fff;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 5px;
+	font-size: 11px;
+	margin: 0 auto;
+}
+.pricing-detailes ul li{
+	font-size: 15px;
+	padding: 15px 0;
+	border-bottom:2px solid rgba(186,186,186,0.2);
+}
+.pricing-detailes ul li i{
+	color: #c6b069;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0 7px;
+	background-color: #fff;
+	border:1px solid #c6b069;
+	border-radius: 50%;
+}
+.pricing-btn button{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #c6b069;
+	border:1px solid #c6b069;
+	background-color: transparent;
+	margin-top: 20px;
+	transition: all 0.5s ease 0s;
+}
+.pricing-btn button:hover{
+	background-color: #c6b069;
+	color: #fff;
+}
+/*=====================================================================================================================
+==================================================   PRICING CSS END   ===============================================*/
